@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "brand": "COMMON SIGNAL",
+  "palette": {
+    "ivory": "#F5F1E8",
+    "charcoal": "#202533",
+    "cobalt": "#3155E7",
+    "orange": "#F58245"
+  },
+  "font": {
+    "family": "Manrope",
+    "weight": 800,
+    "source": "/fonts/manrope.ttf",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "/fonts/Manrope-OFL.txt",
+    "fontSha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "delivery": "All text converted to paths; no runtime font dependency"
+  },
+  "originalIdentity": "Circle above two horizontal bars; original wordmark and geometric packaging identity. No third-party logos.",
+  "assets": {
+    "proof-brand-wordmark": {
+      "url": "/art/architectural-proof/branding/proof-brand-wordmark.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-brand-wordmark.svg",
+      "width": 1200,
+      "height": 220,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Transparent fascia lockup. White capitals and orange mark.",
+      "contentBoundsHint": {
+        "x": 42,
+        "y": 34,
+        "width": 1123,
+        "height": 157
+      },
+      "placement": "Map into wordmarkFaces.left/right quads in branded-building-contract.json; preserve aspect ratio or crop transparent margins before mapping.",
+      "alphaBounds": {
+        "x": 42,
+        "y": 34,
+        "width": 1116,
+        "height": 157
+      },
+      "alphaValidation": {
+        "transparentPixels": 214704,
+        "maximumAlpha": 255,
+        "channels": 4
+      }
+    },
+    "proof-brand-mark": {
+      "url": "/art/architectural-proof/branding/proof-brand-mark.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-brand-mark.svg",
+      "width": 200,
+      "height": 240,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Original cobalt circle-and-two-bars mark; transparent.",
+      "alphaBounds": {
+        "x": 24,
+        "y": 7,
+        "width": 152,
+        "height": 206
+      },
+      "alphaValidation": {
+        "transparentPixels": 31474,
+        "maximumAlpha": 255,
+        "channels": 4
+      }
+    },
+    "proof-brand-sign": {
+      "url": "/art/architectural-proof/branding/proof-brand-sign.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-brand-sign.svg",
+      "width": 900,
+      "height": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Physical cobalt feature-wall sign. Renderer applies wall-plane transform.",
+      "physicalAspect": 3,
+      "alphaBounds": {
+        "x": 1,
+        "y": 1,
+        "width": 898,
+        "height": 298
+      },
+      "alphaValidation": {
+        "transparentPixels": 2444,
+        "maximumAlpha": 255,
+        "channels": 4
+      }
+    },
+    "proof-brand-glow": {
+      "url": "/art/architectural-proof/branding/proof-brand-glow.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-brand-glow.svg",
+      "width": 900,
+      "height": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Optional transparent low-amplitude glow for the feature sign, same geometry/anchor. No opaque panel or text.",
+      "maximumSuggestedOpacity": 0.45,
+      "alphaBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 900,
+        "height": 300
+      },
+      "alphaValidation": {
+        "transparentPixels": 166563,
+        "maximumAlpha": 56,
+        "channels": 4
+      }
+    },
+    "proof-brand-floor": {
+      "url": "/art/architectural-proof/branding/proof-brand-floor.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-brand-floor.svg",
+      "width": 920,
+      "height": 540,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Original flat floor inlay/mat for interior upgrade; already projected at +/-30 degrees.",
+      "projection": {
+        "type": "orthographic-isometric",
+        "axesDegrees": [
+          30,
+          -30
+        ],
+        "matrix": [
+          0.8660254037844386,
+          0.5,
+          -0.8660254037844386,
+          0.5,
+          338.7564434701786,
+          20
+        ]
+      },
+      "groundCorners": [
+        {
+          "x": 338.7564434701786,
+          "y": 20
+        },
+        {
+          "x": 893.0127018922193,
+          "y": 340
+        },
+        {
+          "x": 581.2435565298214,
+          "y": 520
+        },
+        {
+          "x": 26.987298107780703,
+          "y": 200
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 460,
+        "y": 270
+      },
+      "requestedWorldMeters": {
+        "width": 2.4,
+        "depth": 1.35
+      },
+      "alphaBounds": {
+        "x": 29,
+        "y": 21,
+        "width": 862,
+        "height": 498
+      },
+      "alphaValidation": {
+        "transparentPixels": 296014,
+        "maximumAlpha": 255,
+        "channels": 4
+      }
+    },
+    "proof-menu-panel": {
+      "url": "/art/architectural-proof/branding/proof-menu-panel.png",
+      "svg": "/art/architectural-proof/branding/svg/proof-menu-panel.svg",
+      "width": 640,
+      "height": 300,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "purpose": "Physical category menu: FLOWER / EDIBLES / CONCENTRATES only; no controls or prices.",
+      "alphaBounds": {
+        "x": 1,
+        "y": 1,
+        "width": 638,
+        "height": 298
+      },
+      "alphaValidation": {
+        "transparentPixels": 1888,
+        "maximumAlpha": 255,
+        "channels": 4
+      }
+    }
+  },
+  "storefrontPlacementContract": "../branded-building-contract.json",
+  "notes": [
+    "Raster assets are generated from editable SVG sources.",
+    "Flat wall signage is projected by the renderer, not by this artwork.",
+    "Only the floor graphic is preprojected at mathematically exact +/-30 degree ground axes.",
+    "The optional glow is a separate low-opacity static texture; no flashing is baked into any asset."
+  ]
+}

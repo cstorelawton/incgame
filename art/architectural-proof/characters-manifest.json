@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "scope": "Adult Common Signal character art; identities and economics remain renderer/simulation-owned.",
+  "sprites": {
+    "proof-staff-1": {
+      "url": "/art/architectural-proof/proof-staff-1.png",
+      "width": 229,
+      "height": 716,
+      "anchor": {
+        "x": 0.4868995633187773,
+        "y": 0.9371508379888268
+      },
+      "role": "budtender",
+      "adultAge": 27,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    },
+    "proof-staff-2": {
+      "url": "/art/architectural-proof/proof-staff-2.png",
+      "width": 264,
+      "height": 760,
+      "anchor": {
+        "x": 0.44696969696969696,
+        "y": 0.9486842105263158
+      },
+      "role": "budtender",
+      "adultAge": 26,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    },
+    "proof-staff-3": {
+      "url": "/art/architectural-proof/proof-staff-3.png",
+      "width": 232,
+      "height": 731,
+      "anchor": {
+        "x": 0.49353448275862066,
+        "y": 0.9528043775649795
+      },
+      "role": "budtender",
+      "adultAge": 28,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    },
+    "proof-manager": {
+      "url": "/art/architectural-proof/proof-manager.png",
+      "width": 277,
+      "height": 770,
+      "anchor": {
+        "x": 0.49097472924187724,
+        "y": 0.9558441558441558
+      },
+      "role": "manager",
+      "adultAge": 35,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    },
+    "proof-customer-1": {
+      "url": "/art/architectural-proof/proof-customer-1.png",
+      "width": 234,
+      "height": 729,
+      "anchor": {
+        "x": 0.5064102564102564,
+        "y": 0.9506172839506173
+      },
+      "role": "customer",
+      "adultAge": 34,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    },
+    "proof-customer-2": {
+      "url": "/art/architectural-proof/proof-customer-2.png",
+      "width": 260,
+      "height": 739,
+      "anchor": {
+        "x": 0.4807692307692308,
+        "y": 0.9519621109607578
+      },
+      "role": "customer",
+      "adultAge": 53,
+      "physicalHeightMeters": 1.75,
+      "animation": {
+        "type": "single-frame-transform-rig",
+        "frames": 1,
+        "idle": {
+          "scaleYAmplitude": 0.006
+        },
+        "walk": {
+          "pivotYAmplitude": 2
+        },
+        "economicEffect": false
+      }
+    }
+  },
+  "atlas": "/art/architectural-proof/characters-atlas.json",
+  "sources": [
+    "source/characters-lineup-original.png",
+    "source/characters-lineup-clean-original.png"
+  ],
+  "footAnchorMethod": "Authored sole contact points in original source; arithmetic midpoint is ground anchor. Per-person source height is retained. Use consistent scene person height rather than arbitrary sprite width."
+}

@@ -1,0 +1,47 @@
+{
+  "building-shop": {
+    "url": "/art/architectural-proof/building-shop.png",
+    "width": 614,
+    "height": 593,
+    "sourceRegion": {
+      "left": 0,
+      "top": 0,
+      "width": 680,
+      "height": 793
+    },
+    "trimOffset": {
+      "x": 32,
+      "y": 169
+    }
+  },
+  "building-apartments": {
+    "url": "/art/architectural-proof/building-apartments.png",
+    "width": 425,
+    "height": 751,
+    "sourceRegion": {
+      "left": 680,
+      "top": 0,
+      "width": 490,
+      "height": 793
+    },
+    "trimOffset": {
+      "x": 29,
+      "y": 14
+    }
+  },
+  "building-office": {
+    "url": "/art/architectural-proof/building-office.png",
+    "width": 746,
+    "height": 729,
+    "sourceRegion": {
+      "left": 1170,
+      "top": 0,
+      "width": 813,
+      "height": 793
+    },
+    "trimOffset": {
+      "x": 47,
+      "y": 57
+    }
+  }
+}

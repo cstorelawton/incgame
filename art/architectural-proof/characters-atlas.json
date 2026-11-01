@@ -1,0 +1,156 @@
+{
+  "frames": {
+    "proof-staff-1": {
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "w": 229,
+        "h": 716
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 716
+      },
+      "sourceSize": {
+        "w": 229,
+        "h": 716
+      },
+      "anchor": {
+        "x": 0.4868995633187773,
+        "y": 0.9371508379888268
+      }
+    },
+    "proof-staff-2": {
+      "frame": {
+        "x": 338,
+        "y": 8,
+        "w": 264,
+        "h": 760
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 264,
+        "h": 760
+      },
+      "sourceSize": {
+        "w": 264,
+        "h": 760
+      },
+      "anchor": {
+        "x": 0.44696969696969696,
+        "y": 0.9486842105263158
+      }
+    },
+    "proof-staff-3": {
+      "frame": {
+        "x": 668,
+        "y": 8,
+        "w": 232,
+        "h": 731
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 232,
+        "h": 731
+      },
+      "sourceSize": {
+        "w": 232,
+        "h": 731
+      },
+      "anchor": {
+        "x": 0.49353448275862066,
+        "y": 0.9528043775649795
+      }
+    },
+    "proof-manager": {
+      "frame": {
+        "x": 8,
+        "y": 908,
+        "w": 277,
+        "h": 770
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 277,
+        "h": 770
+      },
+      "sourceSize": {
+        "w": 277,
+        "h": 770
+      },
+      "anchor": {
+        "x": 0.49097472924187724,
+        "y": 0.9558441558441558
+      }
+    },
+    "proof-customer-1": {
+      "frame": {
+        "x": 338,
+        "y": 908,
+        "w": 234,
+        "h": 729
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 234,
+        "h": 729
+      },
+      "sourceSize": {
+        "w": 234,
+        "h": 729
+      },
+      "anchor": {
+        "x": 0.5064102564102564,
+        "y": 0.9506172839506173
+      }
+    },
+    "proof-customer-2": {
+      "frame": {
+        "x": 668,
+        "y": 908,
+        "w": 260,
+        "h": 739
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 739
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 739
+      },
+      "anchor": {
+        "x": 0.4807692307692308,
+        "y": 0.9519621109607578
+      }
+    }
+  },
+  "meta": {
+    "image": "characters-atlas.png",
+    "size": {
+      "w": 1024,
+      "h": 2048
+    },
+    "scale": "1"
+  }
+}

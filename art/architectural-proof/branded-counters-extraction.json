@@ -1,0 +1,32 @@
+{
+  "counter-branded-starter": {
+    "url": "/art/architectural-proof/counter-branded-starter.png",
+    "width": 919,
+    "height": 675,
+    "sourceRegion": {
+      "left": 0,
+      "top": 0,
+      "width": 1100,
+      "height": 724
+    },
+    "sourceOrigin": {
+      "x": 98,
+      "y": 35
+    }
+  },
+  "counter-branded-improved": {
+    "url": "/art/architectural-proof/counter-branded-improved.png",
+    "width": 903,
+    "height": 682,
+    "sourceRegion": {
+      "left": 1100,
+      "top": 0,
+      "width": 1072,
+      "height": 724
+    },
+    "sourceOrigin": {
+      "x": 1186,
+      "y": 42
+    }
+  }
+}

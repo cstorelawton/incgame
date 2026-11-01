@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "url": "/art/architectural-proof/building-shop-branded.png",
+  "width": 584,
+  "height": 601,
+  "anchor": {
+    "x": 0.5085616438356164,
+    "y": 0.9950083194675541
+  },
+  "groundAnchorPx": {
+    "x": 297,
+    "y": 598
+  },
+  "footprintPx": [
+    [
+      290,
+      317
+    ],
+    [
+      9,
+      466
+    ],
+    [
+      252,
+      598
+    ],
+    [
+      343,
+      598
+    ],
+    [
+      578,
+      473
+    ]
+  ],
+  "facadeMaskPolygon": [
+    [
+      0,
+      339
+    ],
+    [
+      257,
+      462
+    ],
+    [
+      342,
+      465
+    ],
+    [
+      584,
+      349
+    ],
+    [
+      584,
+      601
+    ],
+    [
+      0,
+      601
+    ]
+  ],
+  "wordmarkFaces": {
+    "left": {
+      "quad": [
+        [
+          17,
+          351
+        ],
+        [
+          251,
+          467
+        ],
+        [
+          251,
+          484
+        ],
+        [
+          17,
+          369
+        ]
+      ],
+      "direction": "down-right",
+      "suggestedCenterPx": {
+        "x": 133,
+        "y": 418
+      }
+    },
+    "right": {
+      "quad": [
+        [
+          349,
+          467
+        ],
+        [
+          571,
+          362
+        ],
+        [
+          571,
+          380
+        ],
+        [
+          349,
+          485
+        ]
+      ],
+      "direction": "up-right",
+      "suggestedCenterPx": {
+        "x": 460,
+        "y": 424
+      }
+    }
+  },
+  "notes": [
+    "Original accepted silhouette alpha preserved exactly.",
+    "All pixels outside ground-floor mask preserved exactly; only image-generator ground-floor color edit composited inside mask.",
+    "Generated source was resized to original accepted canvas for alignment; unchanged original upper facade/roof pixels retained.",
+    "Only p1 uses this storefront; ordinary neighbors keep existing building sprites.",
+    "Wordmarks are separate vector overlays; no text is baked into this sprite."
+  ]
+}

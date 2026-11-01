@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "source": "source/characters-lineup-clean-original.png",
+  "generation": "exec-5b7f584d-fb51-4af9-b7b8-8a3ea4879a1d",
+  "initialGeneration": "exec-cc9e7d5c-a2e6-420e-a9c0-c11bae23213a",
+  "sourceDimensions": {
+    "width": 1806,
+    "height": 871
+  },
+  "actors": {
+    "proof-staff-1": {
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 280,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 21,
+        "top": 88,
+        "width": 229,
+        "height": 716
+      },
+      "sourceOrigin": {
+        "x": 21,
+        "y": 88
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 75,
+          "y": 719
+        },
+        {
+          "x": 190,
+          "y": 799
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 111.5,
+        "y": 671
+      },
+      "footAnchorNormalized": {
+        "x": 0.4868995633187773,
+        "y": 0.9371508379888268
+      },
+      "sourceHeadToGroundPixels": 668,
+      "description": "Black woman, natural curls, cobalt graphic tee, relaxed black trousers, plain white sneakers.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 100319,
+        "transparentPixelsInRegion": 136979,
+        "discardedComponents": 82
+      }
+    },
+    "proof-staff-2": {
+      "sourceRegion": {
+        "left": 280,
+        "top": 0,
+        "width": 320,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 35,
+        "top": 50,
+        "width": 264,
+        "height": 760
+      },
+      "sourceOrigin": {
+        "x": 315,
+        "y": 50
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 367,
+          "y": 737
+        },
+        {
+          "x": 499,
+          "y": 805
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 118,
+        "y": 721
+      },
+      "footAnchorNormalized": {
+        "x": 0.44696969696969696,
+        "y": 0.9486842105263158
+      },
+      "sourceHeadToGroundPixels": 718,
+      "description": "Brown-skinned man, beanie, charcoal hoodie with orange geometric panel, cargo trousers, plain sneakers.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 117361,
+        "transparentPixelsInRegion": 155125,
+        "discardedComponents": 11
+      }
+    },
+    "proof-staff-3": {
+      "sourceRegion": {
+        "left": 600,
+        "top": 0,
+        "width": 285,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 25,
+        "top": 87,
+        "width": 232,
+        "height": 731
+      },
+      "sourceOrigin": {
+        "x": 625,
+        "y": 87
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 678,
+          "y": 749
+        },
+        {
+          "x": 801,
+          "y": 818
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 114.5,
+        "y": 696.5
+      },
+      "footAnchorNormalized": {
+        "x": 0.49353448275862066,
+        "y": 0.9528043775649795
+      },
+      "sourceHeadToGroundPixels": 693.5,
+      "description": "Adult with cropped dyed hair and cap, cream graphic tee, cobalt overshirt, slim jeans, geometric forearm tattoo.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 92062,
+        "transparentPixelsInRegion": 149540,
+        "discardedComponents": 64
+      }
+    },
+    "proof-manager": {
+      "sourceRegion": {
+        "left": 885,
+        "top": 0,
+        "width": 330,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 16,
+        "top": 55,
+        "width": 277,
+        "height": 770
+      },
+      "sourceOrigin": {
+        "x": 901,
+        "y": 55
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 966,
+          "y": 760
+        },
+        {
+          "x": 1108,
+          "y": 822
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 136,
+        "y": 736
+      },
+      "footAnchorNormalized": {
+        "x": 0.49097472924187724,
+        "y": 0.9558441558441558
+      },
+      "sourceHeadToGroundPixels": 733,
+      "description": "Warm brown-skinned adult, tousled hair, stone overshirt with rolled sleeves, cobalt tee, dark jeans, plain sneakers.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 117175,
+        "transparentPixelsInRegion": 162839,
+        "discardedComponents": 66
+      }
+    },
+    "proof-customer-1": {
+      "sourceRegion": {
+        "left": 1215,
+        "top": 0,
+        "width": 295,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 25,
+        "top": 86,
+        "width": 234,
+        "height": 729
+      },
+      "sourceOrigin": {
+        "x": 1240,
+        "y": 86
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 1299,
+          "y": 746
+        },
+        {
+          "x": 1418,
+          "y": 812
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 118.5,
+        "y": 693
+      },
+      "footAnchorNormalized": {
+        "x": 0.5064102564102564,
+        "y": 0.9506172839506173
+      },
+      "sourceHeadToGroundPixels": 690,
+      "description": "Adult woman with rust jacket, cream top, black trousers, plain white sneakers.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 103097,
+        "transparentPixelsInRegion": 147085,
+        "discardedComponents": 16
+      }
+    },
+    "proof-customer-2": {
+      "sourceRegion": {
+        "left": 1510,
+        "top": 0,
+        "width": 296,
+        "height": 871
+      },
+      "trimInRegion": {
+        "left": 29,
+        "top": 86,
+        "width": 260,
+        "height": 739
+      },
+      "sourceOrigin": {
+        "x": 1539,
+        "y": 86
+      },
+      "authoredGroundContactsSource": [
+        {
+          "x": 1605,
+          "y": 758
+        },
+        {
+          "x": 1723,
+          "y": 821
+        }
+      ],
+      "footAnchorPixels": {
+        "x": 125,
+        "y": 703.5
+      },
+      "footAnchorNormalized": {
+        "x": 0.4807692307692308,
+        "y": 0.9519621109607578
+      },
+      "sourceHeadToGroundPixels": 700.5,
+      "description": "Adult man with gray hair and beard, muted teal shirt, light gray jacket, comfortable dark shoes.",
+      "alpha": {
+        "minimumRetained": 8,
+        "opaquePixels": 108412,
+        "transparentPixelsInRegion": 143509,
+        "discardedComponents": 59
+      }
+    }
+  }
+}

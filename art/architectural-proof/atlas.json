@@ -1,0 +1,638 @@
+{
+  "frames": {
+    "proof-building-office": {
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "w": 1015,
+        "h": 1078
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1015,
+        "h": 1078
+      },
+      "sourceSize": {
+        "w": 1015,
+        "h": 1078
+      },
+      "anchor": {
+        "x": 0.6600985221674877,
+        "y": 0.9981447124304267
+      }
+    },
+    "proof-interior": {
+      "frame": {
+        "x": 1039,
+        "y": 8,
+        "w": 1536,
+        "h": 1024
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 1024
+      },
+      "sourceSize": {
+        "w": 1536,
+        "h": 1024
+      },
+      "anchor": {
+        "x": 0.4700520833333333,
+        "y": 0.8701171875
+      }
+    },
+    "proof-counter-improved": {
+      "frame": {
+        "x": 2591,
+        "y": 8,
+        "w": 1247,
+        "h": 968
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1247,
+        "h": 968
+      },
+      "sourceSize": {
+        "w": 1247,
+        "h": 968
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.6782024793388429
+      }
+    },
+    "proof-manager": {
+      "frame": {
+        "x": 8,
+        "y": 1102,
+        "w": 277,
+        "h": 770
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 277,
+        "h": 770
+      },
+      "sourceSize": {
+        "w": 277,
+        "h": 770
+      },
+      "anchor": {
+        "x": 0.49097472924187724,
+        "y": 0.9558441558441558
+      }
+    },
+    "proof-staff-2": {
+      "frame": {
+        "x": 301,
+        "y": 1102,
+        "w": 264,
+        "h": 760
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 264,
+        "h": 760
+      },
+      "sourceSize": {
+        "w": 264,
+        "h": 760
+      },
+      "anchor": {
+        "x": 0.44696969696969696,
+        "y": 0.9486842105263158
+      }
+    },
+    "proof-building-apartments": {
+      "frame": {
+        "x": 581,
+        "y": 1102,
+        "w": 427,
+        "h": 744
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 427,
+        "h": 744
+      },
+      "sourceSize": {
+        "w": 427,
+        "h": 744
+      },
+      "anchor": {
+        "x": 0.5550351288056206,
+        "y": 0.9973118279569892
+      }
+    },
+    "proof-customer-2": {
+      "frame": {
+        "x": 1024,
+        "y": 1102,
+        "w": 260,
+        "h": 739
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 739
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 739
+      },
+      "anchor": {
+        "x": 0.4807692307692308,
+        "y": 0.9519621109607578
+      }
+    },
+    "proof-staff-3": {
+      "frame": {
+        "x": 1300,
+        "y": 1102,
+        "w": 232,
+        "h": 731
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 232,
+        "h": 731
+      },
+      "sourceSize": {
+        "w": 232,
+        "h": 731
+      },
+      "anchor": {
+        "x": 0.49353448275862066,
+        "y": 0.9528043775649795
+      }
+    },
+    "proof-customer-1": {
+      "frame": {
+        "x": 1548,
+        "y": 1102,
+        "w": 234,
+        "h": 729
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 234,
+        "h": 729
+      },
+      "sourceSize": {
+        "w": 234,
+        "h": 729
+      },
+      "anchor": {
+        "x": 0.5064102564102564,
+        "y": 0.9506172839506173
+      }
+    },
+    "proof-display-concentrates": {
+      "frame": {
+        "x": 1798,
+        "y": 1102,
+        "w": 449,
+        "h": 720
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 449,
+        "h": 720
+      },
+      "sourceSize": {
+        "w": 449,
+        "h": 720
+      },
+      "anchor": {
+        "x": 0.5111358574610245,
+        "y": 0.8541666666666666
+      }
+    },
+    "proof-merch": {
+      "frame": {
+        "x": 2263,
+        "y": 1102,
+        "w": 428,
+        "h": 718
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 718
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 718
+      },
+      "anchor": {
+        "x": 0.5093457943925234,
+        "y": 0.862116991643454
+      }
+    },
+    "proof-display-edibles": {
+      "frame": {
+        "x": 2707,
+        "y": 1102,
+        "w": 448,
+        "h": 717
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 448,
+        "h": 717
+      },
+      "sourceSize": {
+        "w": 448,
+        "h": 717
+      },
+      "anchor": {
+        "x": 0.5111607142857143,
+        "y": 0.8528591352859135
+      }
+    },
+    "proof-display-flower": {
+      "frame": {
+        "x": 3171,
+        "y": 1102,
+        "w": 447,
+        "h": 716
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 447,
+        "h": 716
+      },
+      "sourceSize": {
+        "w": 447,
+        "h": 716
+      },
+      "anchor": {
+        "x": 0.5111856823266219,
+        "y": 0.854050279329609
+      }
+    },
+    "proof-staff-1": {
+      "frame": {
+        "x": 3634,
+        "y": 1102,
+        "w": 229,
+        "h": 716
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 716
+      },
+      "sourceSize": {
+        "w": 229,
+        "h": 716
+      },
+      "anchor": {
+        "x": 0.4868995633187773,
+        "y": 0.9371508379888268
+      }
+    },
+    "proof-display": {
+      "frame": {
+        "x": 8,
+        "y": 1888,
+        "w": 457,
+        "h": 706
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 457,
+        "h": 706
+      },
+      "sourceSize": {
+        "w": 457,
+        "h": 706
+      },
+      "anchor": {
+        "x": 0.5054704595185996,
+        "y": 0.8257790368271954
+      }
+    },
+    "proof-counter-starter": {
+      "frame": {
+        "x": 481,
+        "y": 1888,
+        "w": 919,
+        "h": 675
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 919,
+        "h": 675
+      },
+      "sourceSize": {
+        "w": 919,
+        "h": 675
+      },
+      "anchor": {
+        "x": 0.501088139281828,
+        "y": 0.6962962962962963
+      }
+    },
+    "proof-building-shop": {
+      "frame": {
+        "x": 1416,
+        "y": 1888,
+        "w": 584,
+        "h": 601
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 584,
+        "h": 601
+      },
+      "sourceSize": {
+        "w": 584,
+        "h": 601
+      },
+      "anchor": {
+        "x": 0.5085616438356164,
+        "y": 0.9950083194675541
+      }
+    },
+    "proof-building-branded": {
+      "frame": {
+        "x": 2016,
+        "y": 1888,
+        "w": 584,
+        "h": 601
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 584,
+        "h": 601
+      },
+      "sourceSize": {
+        "w": 584,
+        "h": 601
+      },
+      "anchor": {
+        "x": 0.5085616438356164,
+        "y": 0.9950083194675541
+      }
+    },
+    "proof-counter": {
+      "frame": {
+        "x": 2616,
+        "y": 1888,
+        "w": 695,
+        "h": 573
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 695,
+        "h": 573
+      },
+      "sourceSize": {
+        "w": 695,
+        "h": 573
+      },
+      "anchor": {
+        "x": 0.49928057553956834,
+        "y": 0.6692844677137871
+      }
+    },
+    "proof-brand-floor": {
+      "frame": {
+        "x": 8,
+        "y": 2610,
+        "w": 920,
+        "h": 540
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 920,
+        "h": 540
+      },
+      "sourceSize": {
+        "w": 920,
+        "h": 540
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "proof-checkin": {
+      "frame": {
+        "x": 944,
+        "y": 2610,
+        "w": 292,
+        "h": 392
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 292,
+        "h": 392
+      },
+      "sourceSize": {
+        "w": 292,
+        "h": 392
+      },
+      "anchor": {
+        "x": 0.5085616438356164,
+        "y": 0.7933673469387755
+      }
+    },
+    "proof-brand-sign": {
+      "frame": {
+        "x": 1252,
+        "y": 2610,
+        "w": 900,
+        "h": 300
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 900,
+        "h": 300
+      },
+      "sourceSize": {
+        "w": 900,
+        "h": 300
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "proof-brand-glow": {
+      "frame": {
+        "x": 2168,
+        "y": 2610,
+        "w": 900,
+        "h": 300
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 900,
+        "h": 300
+      },
+      "sourceSize": {
+        "w": 900,
+        "h": 300
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "proof-menu-panel": {
+      "frame": {
+        "x": 3084,
+        "y": 2610,
+        "w": 640,
+        "h": 300
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 300
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 300
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "proof-brand-mark": {
+      "frame": {
+        "x": 3740,
+        "y": 2610,
+        "w": 200,
+        "h": 240
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 240
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "proof-brand-wordmark": {
+      "frame": {
+        "x": 8,
+        "y": 3166,
+        "w": 1200,
+        "h": 220
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1200,
+        "h": 220
+      },
+      "sourceSize": {
+        "w": 1200,
+        "h": 220
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "Dispensary Inc. proof packer",
+    "image": "atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 4096,
+      "h": 3584
+    },
+    "scale": "1"
+  }
+}

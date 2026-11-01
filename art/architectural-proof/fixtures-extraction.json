@@ -1,0 +1,208 @@
+{
+  "source": "source/fixtures-original.png",
+  "sourceDimensions": {
+    "width": 2081,
+    "height": 756
+  },
+  "sourceKind": "Original generated art; no Coffee Inc artwork used as an input",
+  "intendedProjection": {
+    "type": "orthographic-isometric",
+    "azimuthDegrees": 45,
+    "elevationDegrees": 35.264,
+    "groundSlope": 0.57735
+  },
+  "notes": [
+    "Ground corners are authored pixel samples of the visible plinth, ordered left/front/right/back; the occluded back corner is inferred by parallelogram closure.",
+    "Ground anchor is the exact average of the four authored corners, not the bottom of the image.",
+    "Desired world dimensions are art-direction targets. Generated projection/scale are approximate; measured ground slopes and visual height are provided for alignment.",
+    "Alpha below 8 and all disconnected components except the largest are discarded; original source is retained unchanged."
+  ],
+  "sprites": {
+    "fixture-counter-basic": {
+      "url": "/art/architectural-proof/fixture-counter-basic.png",
+      "width": 695,
+      "height": 573,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 850,
+        "height": 756
+      },
+      "sourceOrigin": {
+        "x": 60,
+        "y": 130
+      },
+      "requestedWorldMeters": {
+        "width": 2.4,
+        "depth": 0.7,
+        "height": 1
+      },
+      "groundCorners": [
+        {
+          "x": 9,
+          "y": 280
+        },
+        {
+          "x": 545,
+          "y": 571
+        },
+        {
+          "x": 685,
+          "y": 487
+        },
+        {
+          "x": 149,
+          "y": 196
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 347,
+        "y": 383.5
+      },
+      "groundAnchorNormalized": {
+        "x": 0.49928057553956834,
+        "y": 0.6692844677137871
+      },
+      "groundSlopesMeasured": {
+        "front": 0.542910447761194,
+        "depth": -0.6
+      },
+      "authoredVisualHeightPixels": 226,
+      "scaleFor72PixelsPerVerticalMeter": 0.3185840707964602,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 9,
+        "retainedPixels": 219357
+      }
+    },
+    "fixture-display-basic": {
+      "url": "/art/architectural-proof/fixture-display-basic.png",
+      "width": 457,
+      "height": 706,
+      "sourceRegion": {
+        "left": 850,
+        "top": 0,
+        "width": 700,
+        "height": 756
+      },
+      "sourceOrigin": {
+        "x": 997,
+        "y": 14
+      },
+      "requestedWorldMeters": {
+        "width": 1.6,
+        "depth": 0.45,
+        "height": 1.6
+      },
+      "groundCorners": [
+        {
+          "x": 12,
+          "y": 502
+        },
+        {
+          "x": 384,
+          "y": 704
+        },
+        {
+          "x": 450,
+          "y": 664
+        },
+        {
+          "x": 78,
+          "y": 462
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 231,
+        "y": 583
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5054704595185996,
+        "y": 0.8257790368271954
+      },
+      "groundSlopesMeasured": {
+        "front": 0.543010752688172,
+        "depth": -0.6060606060606061
+      },
+      "authoredVisualHeightPixels": 465,
+      "scaleFor72PixelsPerVerticalMeter": 0.24774193548387097,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 6,
+        "retainedPixels": 243508
+      }
+    },
+    "fixture-welcome-basic": {
+      "url": "/art/architectural-proof/fixture-welcome-basic.png",
+      "width": 292,
+      "height": 392,
+      "sourceRegion": {
+        "left": 1550,
+        "top": 0,
+        "width": 531,
+        "height": 756
+      },
+      "sourceOrigin": {
+        "x": 1721,
+        "y": 277
+      },
+      "requestedWorldMeters": {
+        "width": 0.8,
+        "depth": 0.5,
+        "height": 1
+      },
+      "groundCorners": [
+        {
+          "x": 10,
+          "y": 294
+        },
+        {
+          "x": 184,
+          "y": 390
+        },
+        {
+          "x": 287,
+          "y": 328
+        },
+        {
+          "x": 113,
+          "y": 232
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 148.5,
+        "y": 311
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5085616438356164,
+        "y": 0.7933673469387755
+      },
+      "groundSlopesMeasured": {
+        "front": 0.5517241379310345,
+        "depth": -0.6019417475728155
+      },
+      "authoredVisualHeightPixels": 238,
+      "scaleFor72PixelsPerVerticalMeter": 0.3025210084033613,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 0,
+        "retainedPixels": 89019
+      }
+    }
+  }
+}

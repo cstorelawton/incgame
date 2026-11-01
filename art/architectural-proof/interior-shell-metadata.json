@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "status": "approved by root for in-engine assembly; fixture socket validation pending",
+  "source": "source/interior-shell-corrected-original.png",
+  "initialSource": "source/interior-shell-original.png",
+  "generation": "exec-22cb3c93-3a4f-45db-82cd-3906858ed7d5",
+  "url": "/art/architectural-proof/interior-shell.png",
+  "width": 1536,
+  "height": 1024,
+  "projection": {
+    "target": "orthographic isometric 30 degrees",
+    "axesSlope": 0.577,
+    "observed": "artist-rendered approximate, not CAD constrained"
+  },
+  "palette": {
+    "limestone": "#d9d3c4",
+    "brick": "#b77c63",
+    "wall": "#edeae1",
+    "slate": "#59676b",
+    "sage": "#315d4b"
+  },
+  "ground": {
+    "floorCorners": {
+      "back": {
+        "x": 628,
+        "y": 244
+      },
+      "right": {
+        "x": 1307,
+        "y": 583
+      },
+      "front": {
+        "x": 722,
+        "y": 891
+      },
+      "left": {
+        "x": 152,
+        "y": 553
+      }
+    },
+    "entranceThreshold": {
+      "x": 1175,
+      "y": 653
+    },
+    "sidewalkApproach": {
+      "x": 1210,
+      "y": 686
+    },
+    "estimatedWallVerticalPixels": 226,
+    "humanAdultHeightPixels": 124,
+    "groundAnchor": {
+      "x": 0.4700520833333333,
+      "y": 0.8701171875
+    }
+  },
+  "rendering": {
+    "shellPositioning": "Suggested coordinate transform spritePx→world before fixed display scale; keep provided full canvas dimensions and ground anchor.",
+    "depth": "Portal is currently baked into shell; doorway swinging leaf is on sidewalk side, inside corridor remains clear. If actor occlusion requires a foreground portal layer, extract it separately after root acceptance.",
+    "suggestedSocketsPixels": {
+      "rearDisplay": {
+        "x": 810,
+        "y": 416
+      },
+      "checkout": {
+        "x": 830,
+        "y": 625
+      },
+      "checkIn": {
+        "x": 1115,
+        "y": 610
+      },
+      "staffStation": {
+        "x": 801,
+        "y": 548
+      },
+      "browseStop": {
+        "x": 908,
+        "y": 520
+      },
+      "queueStop": {
+        "x": 935,
+        "y": 683
+      }
+    }
+  },
+  "alpha": {
+    "fullyTransparentPixels": 734286,
+    "normalizedOpaquePixels": 821421,
+    "processing": "Only cleared invisible RGB where alpha already zero and normalized near-opaque alpha250..254 to255; no visible geometry/content edited. Antialiased edges retained."
+  },
+  "notes": [
+    "Empty shell only: no counter, display, staff, customer, products, or upgrade props baked in.",
+    "Front entry is a complete connected frame, glass leaf swung outward to sidewalk, opening unobstructed.",
+    "No back-office door; two wall windows remain fixed architecture.",
+    "Sidewalk and thin street strip are fixed shell architecture.",
+    "Pixel geometry measured visually to approximately5-10px precision.",
+    "Both original generated raster sources preserved unmodified."
+  ],
+  "normalizationRecipe": "source/normalize-interior.cjs"
+}

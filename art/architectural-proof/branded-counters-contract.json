@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "brand": "COMMON SIGNAL",
+  "palette": [
+    "#F5F1E8",
+    "#202533",
+    "#3155E7",
+    "#F58245"
+  ],
+  "requestedWorldMeters": {
+    "width": 2.4,
+    "depth": 0.7,
+    "height": 1
+  },
+  "targetProjection": "Orthographic isometric, 30-degree axes; generated raster projection is approximate.",
+  "recommendedDisplayWidth": 221.4,
+  "notes": [
+    "Both states use the same game occupancy and position; swap modules rather than changing the room.",
+    "Ground anchor is the center of authored ground polygon, matching the existing fixture contract.",
+    "Starter base long-edge slope is approximately0.44 (24degrees), improved approximately0.49 (26degrees); depth edges approximate0.48 and0.55. Raster projection is not exact CAD.",
+    "At recommended displaywidth, glassheight is approximately70–72worldpixels, close to the existing1m counter reference.",
+    "No brandwordmark or text is baked into the counter; editable vector brandmark overlays remain independent.",
+    "Improved white LEDchannel is an unlit material strip; glow should be a separate renderer overlay."
+  ],
+  "sprites": {
+    "proof-counter-starter": {
+      "physicalVerticalHeightMeters": 1,
+      "url": "/art/architectural-proof/counter-branded-starter.png",
+      "width": 919,
+      "height": 675,
+      "groundCorners": [
+        {
+          "x": 7,
+          "y": 362
+        },
+        {
+          "x": 714,
+          "y": 673
+        },
+        {
+          "x": 914,
+          "y": 578
+        },
+        {
+          "x": 207,
+          "y": 267
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 460.5,
+        "y": 470
+      },
+      "anchor": {
+        "x": 0.501088139281828,
+        "y": 0.6962962962962963
+      },
+      "authoredVisualHeightPixels": 292,
+      "scaleFor72PixelsPerVerticalMeter": 0.2465753424657534,
+      "frontBrandPanelQuad": [
+        [
+          35,
+          207
+        ],
+        [
+          684,
+          495
+        ],
+        [
+          684,
+          624
+        ],
+        [
+          35,
+          343
+        ]
+      ],
+      "features": [
+        "whitepowdercoatbase",
+        "cobaltfrontpanel",
+        "orangeendpanel",
+        "mixedjars,pouches,boxes",
+        "singlePOS",
+        "two smallpaperbags"
+      ],
+      "groundAnchorNormalized": {
+        "x": 0.501088139281828,
+        "y": 0.6962962962962963
+      },
+      "footprint": [
+        [
+          7,
+          362
+        ],
+        [
+          714,
+          673
+        ],
+        [
+          914,
+          578
+        ],
+        [
+          207,
+          267
+        ]
+      ]
+    },
+    "proof-counter-improved": {
+      "physicalVerticalHeightMeters": 1,
+      "url": "/art/architectural-proof/counter-branded-improved.png",
+      "width": 1247,
+      "height": 968,
+      "groundCorners": [
+        {
+          "x": 7,
+          "y": 505
+        },
+        {
+          "x": 950,
+          "y": 966
+        },
+        {
+          "x": 1240,
+          "y": 808
+        },
+        {
+          "x": 297,
+          "y": 347
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 623.5,
+        "y": 656.5
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.6782024793388429
+      },
+      "authoredVisualHeightPixels": 404,
+      "scaleFor72PixelsPerVerticalMeter": 0.1782178217821782,
+      "frontBrandPanelQuad": [
+        [
+          25,
+          307
+        ],
+        [
+          920,
+          730
+        ],
+        [
+          920,
+          903
+        ],
+        [
+          25,
+          487
+        ]
+      ],
+      "features": [
+        "darkbase",
+        "cobaltfrontpanel",
+        "orangeendpanel",
+        "framelessglass",
+        "steppedproductstands",
+        "two smallPOS",
+        "unlitwhiteLEDchannel"
+      ],
+      "groundAnchorNormalized": {
+        "x": 0.5,
+        "y": 0.6782024793388429
+      },
+      "footprint": [
+        [
+          7,
+          505
+        ],
+        [
+          950,
+          966
+        ],
+        [
+          1240,
+          808
+        ],
+        [
+          297,
+          347
+        ]
+      ]
+    }
+  },
+  "sources": [
+    "source/counters-branded-original.png",
+    "source/counter-improved-repaired.png"
+  ]
+}

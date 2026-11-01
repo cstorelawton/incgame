@@ -1,0 +1,329 @@
+{
+  "source": "source/merchandising-original.png",
+  "sourceDimensions": {
+    "width": 2172,
+    "height": 724
+  },
+  "sourceKind": "Original generated artwork; geometry reference was our fixture-display-basic.png; no third-party photograph used as generation input.",
+  "intendedProjection": {
+    "type": "orthographic-isometric",
+    "groundSlope": 0.577350269
+  },
+  "notes": [
+    "All four authored physical targets are 1.6m wide, 0.45m deep, 1.6m high.",
+    "Ground polygon uses visible leg-contact samples and an inferred back corner; anchor is polygon center.",
+    "Source ground slopes are approximate rather than exactly +/-30 degrees. Measured values are provided explicitly.",
+    "Alpha values below 8 and all but the largest 8-connected object component are removed. Source remains unchanged."
+  ],
+  "sprites": {
+    "proof-display-flower": {
+      "url": "/art/architectural-proof/proof-display-flower.png",
+      "label": "STRATA house-brand flower",
+      "width": 447,
+      "height": 716,
+      "sourceRegion": {
+        "left": 0,
+        "top": 0,
+        "width": 543,
+        "height": 724
+      },
+      "sourceOrigin": {
+        "x": 57,
+        "y": 2
+      },
+      "requestedWorldMeters": {
+        "width": 1.6,
+        "depth": 0.45,
+        "height": 1.6
+      },
+      "groundCorners": [
+        {
+          "x": 19,
+          "y": 553
+        },
+        {
+          "x": 372,
+          "y": 714
+        },
+        {
+          "x": 438,
+          "y": 670
+        },
+        {
+          "x": 85,
+          "y": 509
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 228.5,
+        "y": 611.5
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5111856823266219,
+        "y": 0.854050279329609
+      },
+      "groundSlopesMeasured": {
+        "front": 0.45609065155807366,
+        "depth": -0.6666666666666666
+      },
+      "authoredVisualHeightPixels": 511,
+      "scaleFor72PixelsPerVerticalMeter": 0.225440313111546,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 5,
+        "discardedPixels": 5,
+        "retainedPixels": 250360,
+        "componentSizes": [
+          250360,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "proof-display-edibles": {
+      "url": "/art/architectural-proof/proof-display-edibles.png",
+      "label": "SUNSHIFT edibles",
+      "width": 448,
+      "height": 717,
+      "sourceRegion": {
+        "left": 543,
+        "top": 0,
+        "width": 543,
+        "height": 724
+      },
+      "sourceOrigin": {
+        "x": 596,
+        "y": 1
+      },
+      "requestedWorldMeters": {
+        "width": 1.6,
+        "depth": 0.45,
+        "height": 1.6
+      },
+      "groundCorners": [
+        {
+          "x": 19,
+          "y": 553
+        },
+        {
+          "x": 372,
+          "y": 714
+        },
+        {
+          "x": 439,
+          "y": 670
+        },
+        {
+          "x": 86,
+          "y": 509
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 229,
+        "y": 611.5
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5111607142857143,
+        "y": 0.8528591352859135
+      },
+      "groundSlopesMeasured": {
+        "front": 0.45609065155807366,
+        "depth": -0.6567164179104478
+      },
+      "authoredVisualHeightPixels": 511,
+      "scaleFor72PixelsPerVerticalMeter": 0.225440313111546,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 8,
+        "discardedPixels": 9,
+        "retainedPixels": 250269,
+        "componentSizes": [
+          250269,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "proof-display-concentrates": {
+      "url": "/art/architectural-proof/proof-display-concentrates.png",
+      "label": "VECTOR concentrates",
+      "width": 449,
+      "height": 720,
+      "sourceRegion": {
+        "left": 1086,
+        "top": 0,
+        "width": 543,
+        "height": 724
+      },
+      "sourceOrigin": {
+        "x": 1136,
+        "y": 0
+      },
+      "requestedWorldMeters": {
+        "width": 1.6,
+        "depth": 0.45,
+        "height": 1.6
+      },
+      "groundCorners": [
+        {
+          "x": 20,
+          "y": 556
+        },
+        {
+          "x": 373,
+          "y": 718
+        },
+        {
+          "x": 439,
+          "y": 674
+        },
+        {
+          "x": 86,
+          "y": 512
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 229.5,
+        "y": 615
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5111358574610245,
+        "y": 0.8541666666666666
+      },
+      "groundSlopesMeasured": {
+        "front": 0.45892351274787535,
+        "depth": -0.6666666666666666
+      },
+      "authoredVisualHeightPixels": 513,
+      "scaleFor72PixelsPerVerticalMeter": 0.22456140350877193,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 20,
+        "discardedPixels": 354,
+        "retainedPixels": 252594,
+        "componentSizes": [
+          252594,
+          117,
+          42,
+          29,
+          24,
+          23,
+          17,
+          17,
+          17,
+          12,
+          12,
+          11,
+          10,
+          9,
+          7,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "proof-merch": {
+      "url": "/art/architectural-proof/proof-merch.png",
+      "label": "COMMON SIGNAL apparel and bags",
+      "width": 428,
+      "height": 718,
+      "sourceRegion": {
+        "left": 1629,
+        "top": 0,
+        "width": 543,
+        "height": 724
+      },
+      "sourceOrigin": {
+        "x": 1689,
+        "y": 1
+      },
+      "requestedWorldMeters": {
+        "width": 1.6,
+        "depth": 0.45,
+        "height": 1.6
+      },
+      "groundCorners": [
+        {
+          "x": 15,
+          "y": 566
+        },
+        {
+          "x": 356,
+          "y": 715
+        },
+        {
+          "x": 421,
+          "y": 672
+        },
+        {
+          "x": 80,
+          "y": 523
+        }
+      ],
+      "groundAnchorPixels": {
+        "x": 218,
+        "y": 619
+      },
+      "groundAnchorNormalized": {
+        "x": 0.5093457943925234,
+        "y": 0.862116991643454
+      },
+      "groundSlopesMeasured": {
+        "front": 0.436950146627566,
+        "depth": -0.6615384615384615
+      },
+      "authoredVisualHeightPixels": 525,
+      "scaleFor72PixelsPerVerticalMeter": 0.21942857142857145,
+      "animation": {
+        "type": "static",
+        "frames": 1
+      },
+      "alphaCleanup": {
+        "minimumAlpha": 8,
+        "retainedConnectedComponents": 1,
+        "discardedComponents": 8,
+        "discardedPixels": 8,
+        "retainedPixels": 211861,
+        "componentSizes": [
+          211861,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  }
+}

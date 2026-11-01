@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "targetProjection": {
+    "type": "orthographic isometric",
+    "azimuthDegrees": 45,
+    "elevationDegrees": 35.264,
+    "groundAxisDegrees": 30
+  },
+  "projectionNote": "Artist-rendered approximation, not mechanically exact CAD. Visible edge slopes vary roughly 0.53–0.64. Renderer uses 30-degree axes; review assembled phone scene.",
+  "lighting": "upper-left daylight",
+  "sprites": {
+    "shop": {
+      "url": "/art/architectural-proof/building-shop-corrected.png",
+      "width": 584,
+      "height": 601,
+      "anchor": {
+        "x": 0.5085616438356164,
+        "y": 0.9950083194675541
+      },
+      "groundAnchorPx": {
+        "x": 297,
+        "y": 598
+      },
+      "footprintPx": [
+        [
+          290,
+          317
+        ],
+        [
+          9,
+          466
+        ],
+        [
+          252,
+          598
+        ],
+        [
+          343,
+          598
+        ],
+        [
+          578,
+          473
+        ]
+      ],
+      "footprintOrder": "inferred back, visible left, chamfer near-left, chamfer near-right, visible right",
+      "stories": 3,
+      "worldFootprintMeters": {
+        "width": 12,
+        "depth": 10
+      }
+    },
+    "apartments": {
+      "url": "/art/architectural-proof/building-apartments-corrected.png",
+      "width": 427,
+      "height": 744,
+      "anchor": {
+        "x": 0.5550351288056206,
+        "y": 0.9973118279569892
+      },
+      "groundAnchorPx": {
+        "x": 237,
+        "y": 742
+      },
+      "footprintPx": [
+        [
+          187,
+          510
+        ],
+        [
+          7,
+          619
+        ],
+        [
+          237,
+          742
+        ],
+        [
+          417,
+          633
+        ]
+      ],
+      "footprintOrder": "inferred back, visible left, visible front, visible right",
+      "stories": 5,
+      "worldFootprintMeters": {
+        "width": 9,
+        "depth": 12
+      }
+    },
+    "office": {
+      "url": "/art/architectural-proof/building-office-final.png",
+      "width": 1015,
+      "height": 1078,
+      "anchor": {
+        "x": 0.6600985221674877,
+        "y": 0.9981447124304267
+      },
+      "groundAnchorPx": {
+        "x": 670,
+        "y": 1076
+      },
+      "footprintPx": [
+        [
+          347,
+          496
+        ],
+        [
+          4,
+          710
+        ],
+        [
+          670,
+          1076
+        ],
+        [
+          1013,
+          862
+        ]
+      ],
+      "footprintOrder": "inferred back, visible left, visible front, visible right",
+      "stories": 3,
+      "worldFootprintMeters": {
+        "width": 15,
+        "depth": 12
+      },
+      "storyCountNote": "Observed final sprite: ground-floor glazing plus two upper window rows. Original generation brief requested four stories; output contains three."
+    }
+  },
+  "geometryNote": "Ground vertices are manually calibrated from opaque alpha base contours. Hidden back vertices are inferred from visible wall edges; shop has a chamfered entrance corner. Anchors are actual near-ground contact positions, not image centers.",
+  "sources": {
+    "shop": "source/city-buildings-corrected.png",
+    "apartments": "source/city-buildings-corrected.png",
+    "office": "source/city-office-repaired.png"
+  },
+  "atlas": "/art/architectural-proof/city-atlas.json"
+}

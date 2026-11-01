@@ -1,0 +1,85 @@
+{
+  "frames": {
+    "shop": {
+      "frame": {
+        "x": 6,
+        "y": 6,
+        "w": 500,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 515
+      },
+      "anchor": {
+        "x": 0.5085616438356164,
+        "y": 0.9950083194675541
+      }
+    },
+    "apartments": {
+      "frame": {
+        "x": 518,
+        "y": 6,
+        "w": 425,
+        "h": 740
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 425,
+        "h": 740
+      },
+      "sourceSize": {
+        "w": 425,
+        "h": 740
+      },
+      "anchor": {
+        "x": 0.5550351288056206,
+        "y": 0.9973118279569892
+      }
+    },
+    "office": {
+      "frame": {
+        "x": 1030,
+        "y": 6,
+        "w": 500,
+        "h": 531
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 531
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 531
+      },
+      "anchor": {
+        "x": 0.6600985221674877,
+        "y": 0.9981447124304267
+      }
+    }
+  },
+  "meta": {
+    "image": "city-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1536,
+      "h": 768
+    },
+    "scale": "1"
+  }
+}

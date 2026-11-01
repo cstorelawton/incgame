@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="COMMON SIGNAL visual proof for Dispensary Inc. Actual in-game phone captures of the neighborhood, starter store, and improved checkout.">
+  <title>COMMON SIGNAL — Visual proof for review</title>
+  <style>
+    :root { --paper:#f5f1e8; --panel:#fffdf8; --ink:#202533; --muted:#686b72; --line:#dcd8cf; --blue:#3155e7; --orange:#f58245; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.5; }
+    a { color:var(--blue); text-underline-offset:3px; }
+    a:focus-visible { outline:3px solid var(--orange); outline-offset:4px; border-radius:3px; }
+    .wrap { width:min(1240px,calc(100% - 48px)); margin:auto; }
+    .topline { border-bottom:1px solid var(--line); padding:8px 0; }
+    .masthead { display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .identity { min-height:44px; display:flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none; font-size:15px; font-weight:850; letter-spacing:.075em; }
+    .brand-mark { width:28px; height:34px; object-fit:contain; display:block; }
+    .project { color:var(--muted); font-size:13px; }
+    .intro { padding:21px 0 19px; max-width:850px; }
+    .eyebrow { margin:0 0 16px; color:var(--blue); font-size:12px; font-weight:750; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:0 0 9px; font-size:clamp(24px,3vw,36px); line-height:1.15; letter-spacing:-.035em; font-weight:800; }
+    .lead { max-width:720px; margin:0; color:#535865; font-size:14px; line-height:1.45; }
+    .actions { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; }
+    .button { min-height:44px; padding:10px 13px; display:inline-flex; align-items:center; justify-content:center; gap:10px; border:1px solid var(--line); border-radius:8px; background:var(--panel); color:var(--ink); font-size:14px; font-weight:700; text-decoration:none; }
+    .button.primary { background:var(--blue); border-color:var(--blue); color:white; }
+    .button:hover { border-color:var(--blue); }
+    .button.primary:hover { background:#2445cb; }
+    .release-note { margin:8px 0 0; color:var(--muted); font-size:12px; }
+    .section-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:12px; }
+    h2 { margin:0; font-size:23px; letter-spacing:-.025em; }
+    .hint { margin:0; color:var(--muted); font-size:13px; }
+    .captures { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; }
+    .capture { margin:0; border:1px solid var(--line); border-radius:13px; overflow:hidden; background:var(--panel); }
+    .captures .capture { display:flex; flex-direction:column; }
+    .captures .image-link { order:0; border-top:0; }
+    .captures .capture-head { order:1; min-height:0; padding:14px 18px 7px; }
+    .captures .capture-links { order:2; padding-top:0; }
+    .capture-head { padding:21px 21px 17px; min-height:118px; }
+    .capture-number { display:block; color:var(--blue); font-size:11px; font-weight:800; letter-spacing:.08em; margin-bottom:6px; }
+    h3 { margin:0 0 5px; font-size:18px; letter-spacing:-.02em; }
+    .capture p { margin:0; color:var(--muted); font-size:13px; }
+    .image-link { display:block; background:#e3e0d8; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .image-link img { display:block; width:100%; height:auto; }
+    .capture-links { padding:11px 15px; display:flex; align-items:center; flex-wrap:wrap; gap:4px 15px; }
+    .capture-links a { display:inline-flex; align-items:center; min-height:44px; font-size:13px; font-weight:650; }
+    .capture-links .active { color:var(--ink); }
+    .support { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.3fr); gap:24px; margin:42px 0; align-items:start; }
+    .support .capture { max-width:390px; }
+    .support-copy { padding-top:9px; }
+    .support-copy h2 { margin-bottom:14px; }
+    .support-copy p { color:var(--muted); max-width:560px; }
+    .detail-list { display:grid; gap:17px; padding:0; margin:22px 0; list-style:none; }
+    .detail-list strong { display:block; font-size:15px; margin-bottom:3px; }
+    .detail-list span { display:block; color:var(--muted); font-size:14px; }
+    .lineup { margin:42px 0; padding:25px; border:1px solid var(--line); border-radius:13px; background:var(--panel); }
+    .lineup .image-link { margin-top:18px; border:0; background:transparent; }
+    .lineup img { max-width:100%; max-height:350px; width:auto; margin:auto; object-fit:contain; }
+    .lineup .caption { margin:13px 0 0; font-size:12px; color:var(--muted); }
+    details { border-top:1px solid var(--line); border-bottom:1px solid var(--line); margin:40px 0; padding:3px 0; }
+    summary { cursor:pointer; min-height:60px; display:list-item; padding:17px 2px; font-weight:700; font-size:15px; }
+    .previous { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; padding:15px 0 28px; max-width:790px; }
+    .previous .capture-head { min-height:0; }
+    .references { display:grid; grid-template-columns:1fr 2fr; gap:30px; border-top:1px solid var(--line); padding:30px 0 40px; }
+    .references p { margin:8px 0 0; color:var(--muted); font-size:13px; max-width:350px; }
+    .reference-links { display:grid; grid-template-columns:1fr 1fr; gap:5px 25px; }
+    .reference-links a { display:flex; align-items:center; min-height:44px; padding:7px 0; font-size:14px; }
+    footer { border-top:1px solid var(--line); padding:24px 0 30px; color:var(--muted); font-size:12px; }
+    footer .wrap { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+    footer a { display:inline-flex; min-height:44px; align-items:center; }
+    @media(max-width:920px) { .captures { gap:13px; } .capture-head { padding:17px 15px; min-height:135px; } .capture-links { padding:8px 12px; } }
+    @media(max-width:700px) { .wrap { width:min(440px,calc(100% - 32px)); } .topline { padding:7px 0; } .project { display:none; } .intro { padding:17px 0 15px; } .lead { font-size:14px; } .section-heading { align-items:start; flex-direction:column; gap:2px; } #captures > .section-heading h2 { font-size:19px; } #captures > .section-heading .hint { font-size:12px; } .captures,.support,.references { grid-template-columns:1fr; } .captures { gap:24px; } .capture-head { min-height:0; padding:20px; } .capture-links { padding:9px 17px; } .support { gap:25px; margin:35px 0; } .support .capture { max-width:none; } .lineup { margin:35px 0; padding:20px; } .lineup img { max-height:240px; } .previous { gap:15px; } .previous .capture-links { padding:8px 12px; } .previous .capture-head { padding:13px; } .previous h3 { font-size:15px; } .references { gap:15px; } .reference-links { grid-template-columns:1fr; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body id="top">
+  <header class="topline">
+    <div class="wrap masthead">
+      <a class="identity" href="#top"><img class="brand-mark" src="images/brand-mark.png" alt="">COMMON SIGNAL</a>
+      <span class="project">Dispensary Inc. / Art direction review</span>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">COMMON SIGNAL visual proof</h1>
+      <p class="lead">Old Town and Maple & Main (p1): starter and improved interiors on the same floor plan. Mechanics and saves are unchanged.</p>
+      <nav class="actions" aria-label="Review actions">
+        
+        <a class="button primary" href="assets-source.zip" download>Source kit</a>
+        
+        <a class="button" href="https://cstorelawton.github.io/incgame/" target="_blank" rel="noopener">Current playable release</a>
+      </nav>
+      <p class="release-note">Screenshots for review; the linked game is the current release.</p>
+    </section>
+    <section id="captures" aria-labelledby="captures-title">
+      <div class="section-heading">
+        <h2 id="captures-title">Actual game captures</h2>
+        <p class="hint">Old Town / p1 · 390px phone captures</p>
+      </div>
+      <div class="captures">
+        <figure class="capture">
+          <figcaption class="capture-head"><span class="capture-number">01 / NEIGHBORHOOD</span><h3>Part of the city</h3><p>One branded storefront within ordinary urban architecture.</p></figcaption>
+          <a class="image-link" href="images/proof-city-390.png" target="_blank" rel="noopener" aria-label="Open neighborhood capture at full size"><img src="images/proof-city-390.png" alt="Actual 390-pixel game capture of the COMMON SIGNAL neighborhood proof" loading="eager"></a>
+          <div class="capture-links"><a class="active" href="images/proof-city-390.png" target="_blank" rel="noopener">Open 390px capture</a><a href="images/proof-city-360.png" target="_blank" rel="noopener">View 360px</a></div>
+        </figure>
+        <figure class="capture">
+          <figcaption class="capture-head"><span class="capture-number">02 / STARTER STORE</span><h3>Ready for the first week</h3><p>Original branding, mixed merchandise, and clear circulation.</p></figcaption>
+          <a class="image-link" href="images/proof-store-390.png" target="_blank" rel="noopener" aria-label="Open starter store capture at full size"><img src="images/proof-store-390.png" alt="Actual 390-pixel game capture of the COMMON SIGNAL starter store" loading="eager"></a>
+          <div class="capture-links"><a class="active" href="images/proof-store-390.png" target="_blank" rel="noopener">Open 390px capture</a><a href="images/proof-store-360.png" target="_blank" rel="noopener">View 360px</a></div>
+        </figure>
+        <figure class="capture">
+          <figcaption class="capture-head"><span class="capture-number">03 / IMPROVED CHECKOUT</span><h3>A visible upgrade</h3><p>A different checkout module in the same operating store.</p></figcaption>
+          <a class="image-link" href="images/proof-upgraded-390.png" target="_blank" rel="noopener" aria-label="Open improved checkout capture at full size"><img src="images/proof-upgraded-390.png" alt="Actual 390-pixel game capture showing the improved COMMON SIGNAL checkout" loading="eager"></a>
+          <div class="capture-links"><a class="active" href="images/proof-upgraded-390.png" target="_blank" rel="noopener">Open 390px capture</a><a href="images/proof-upgraded-360.png" target="_blank" rel="noopener">View 360px</a></div>
+        </figure>
+      </div>
+    </section>
+    
+    <section class="support" aria-labelledby="storefront-title">
+      <figure class="capture">
+        <figcaption class="capture-head"><span class="capture-number">STOREFRONT DETAIL</span><h3>COMMON SIGNAL, on the block</h3><p>Actual game capture at a closer city zoom.</p></figcaption>
+        <a class="image-link" href="images/proof-storefront-390.png" target="_blank" rel="noopener" aria-label="Open storefront detail capture"><img src="images/proof-storefront-390.png" alt="Actual game capture showing the branded storefront at closer city zoom" loading="lazy"></a>
+        <div class="capture-links"><a href="images/proof-storefront-390.png" target="_blank" rel="noopener">Open 390px capture</a><a href="images/proof-storefront-360.png" target="_blank" rel="noopener">View 360px</a></div>
+      </figure>
+      <div class="support-copy">
+        <p class="eyebrow">One identity, several touchpoints</p>
+        <h2 id="storefront-title">Branding that belongs in the shop</h2>
+        <p>The original identity appears on the storefront, physical signage, product families, and checkout. Broad neutral surfaces keep the retail space readable.</p>
+        <ul class="detail-list">
+          <li><strong>Architecture stays in place</strong><span>The brick upper floors, roof, footprint, and established room shell are retained.</span></li>
+          <li><strong>Upgrades stay modular</strong><span>The starter and improved checkout occupy the same space. Products, staff, and customers remain separate scene elements.</span></li>
+          <li><strong>Review at phone scale</strong><span>Both 390px and 360px captures are available. These are browser captures, not physical-device testing.</span></li>
+        </ul>
+      </div>
+    </section>
+    
+    
+    <section class="lineup" aria-labelledby="lineup-title">
+      <div class="section-heading"><h2 id="lineup-title">The people in the shop</h2><p class="hint">Enlarged asset view</p></div>
+      <a class="image-link" href="images/common-signal-characters-lineup.png" target="_blank" rel="noopener" aria-label="Open enlarged character asset lineup"><img src="images/common-signal-characters-lineup.png" alt="Enlarged lineup of original COMMON SIGNAL character sprites for inspecting outfits and silhouettes" loading="lazy"></a>
+      <p class="caption">An enlarged sprite lineup for art inspection. See the game captures above for actual character size, placement, and occlusion.</p>
+    </section>
+    
+    
+    <details>
+      <summary>Compare with the previous proof</summary>
+      <div class="previous">
+        <figure class="capture"><figcaption class="capture-head"><h3>Previous neighborhood</h3></figcaption><a class="image-link" href="images/before-city-390.png" target="_blank" rel="noopener"><img src="images/before-city-390.png" alt="Earlier neighborhood game capture for comparison" loading="lazy"></a><div class="capture-links"><a href="images/before-city-390.png" target="_blank" rel="noopener">Open previous city</a></div></figure>
+        <figure class="capture"><figcaption class="capture-head"><h3>Previous store</h3></figcaption><a class="image-link" href="images/before-store-390.png" target="_blank" rel="noopener"><img src="images/before-store-390.png" alt="Earlier store game capture for comparison" loading="lazy"></a><div class="capture-links"><a href="images/before-store-390.png" target="_blank" rel="noopener">Open previous store</a></div></figure>
+      </div>
+    </details>
+    
+    <section class="references" aria-labelledby="references-title">
+      <div><h2 id="references-title">Reference study</h2><p>Official project pages informed scale, retail presentation, and color placement. The proof uses original project art and branding.</p></div>
+      <div class="reference-links">
+        <a href="https://www.sidelabs.com/coffeeinc2/" target="_blank" rel="noopener">Side Labs · Coffee Inc. 2</a>
+        <a href="https://www.tobedesigngroup.com/commercial-portfolio/cookies-co-maywood" target="_blank" rel="noopener">TOBE DesignGroup · Cookies Maywood</a>
+        <a href="https://www.jhldesign.com/retail/oregrown" target="_blank" rel="noopener">JHL Design · Oregrown</a>
+        <a href="https://www.bergmeyer.com/work/superette" target="_blank" rel="noopener">Bergmeyer · Superette</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>Dispensary Inc. / COMMON SIGNAL visual proof<br>Static review material · original art · actual browser captures</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>

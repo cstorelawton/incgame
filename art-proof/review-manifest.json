@@ -1,0 +1,75 @@
+{
+  "kind": "Static visual-proof review gallery",
+  "builtAt": "2026-11-01T22:23:04.781Z",
+  "source": "docs/art-proof-review.html",
+  "captures": [
+    {
+      "file": "proof-city-390.png",
+      "bytes": 173406,
+      "sha256": "5768402c9298c352c633f57086410f9d2e54be65ed49e5908b13204616693c50"
+    },
+    {
+      "file": "proof-city-360.png",
+      "bytes": 150949,
+      "sha256": "595184ae2075fb36339264aa3bad9abe7be9792a9bbb0ecec0d7ed8ca0bf7846"
+    },
+    {
+      "file": "proof-store-390.png",
+      "bytes": 135197,
+      "sha256": "dd5ee9d33e2ff44b450b189b878b902ab0b7f30d72762f5f76001976db31eef5"
+    },
+    {
+      "file": "proof-store-360.png",
+      "bytes": 119305,
+      "sha256": "cc27a6a603308bfef41dd6e98fd04b8b33c5ce0f071e05579584bae608de655c"
+    },
+    {
+      "file": "proof-upgraded-390.png",
+      "bytes": 136893,
+      "sha256": "7899a9bdc7de94935d777ae8bc882be38c8f60eb7f74d115a8973af703cb2e9c"
+    },
+    {
+      "file": "proof-upgraded-360.png",
+      "bytes": 121040,
+      "sha256": "d50087003af2be800256192e05f1ec254178a4fdf4448464d88e004b4a3f186b"
+    },
+    {
+      "file": "proof-storefront-390.png",
+      "bytes": 139998,
+      "sha256": "04daff3bee0cd1039de2e5a47e29916b3dffa497f38d0b99a0a4d062eb4f9b17"
+    },
+    {
+      "file": "proof-storefront-360.png",
+      "bytes": 121187,
+      "sha256": "8a52df35c280fcfa60b98c6002e789918c88ad82dca6a0409ebcb2f76259f335"
+    },
+    {
+      "file": "common-signal-characters-lineup.png",
+      "bytes": 436202,
+      "sha256": "e3e5a9e8b3eef4e06cfb6aba9403d8676ef6132cdf9e81e3fe4983b573da0f25"
+    },
+    {
+      "file": "before-city-390.png",
+      "bytes": 139508,
+      "sha256": "23c3da90bfb94f96cbda6788d849c3e793bf58770ff5bb628b97c278481e5dd8"
+    },
+    {
+      "file": "before-store-390.png",
+      "bytes": 208567,
+      "sha256": "a5a03a3cd11788df7202fb1864e86d9726ff433b72faa131d446a2565039f2e7"
+    }
+  ],
+  "includedSections": [
+    "STOREFRONT",
+    "LINEUP",
+    "BEFORE"
+  ],
+  "sourceArchiveIncluded": true,
+  "brandMark": {
+    "file": "images/brand-mark.png",
+    "source": "public/art/architectural-proof/branding/proof-brand-mark.png",
+    "copiedWithoutModification": true
+  },
+  "currentPlayableRelease": "https://cstorelawton.github.io/incgame/",
+  "thirdPartyReferenceImagesIncluded": false
+}

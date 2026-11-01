@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "projection": "2:1 isometric",
+  "lighting": "upper-left",
+  "palette": [
+    "#ede9db",
+    "#637656",
+    "#8c5b36",
+    "#b88045"
+  ],
+  "sprites": {
+    "storefront": {
+      "url": "/art/storefront.png",
+      "width": 560,
+      "height": 557,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "interior": {
+      "url": "/art/interior.png",
+      "width": 577,
+      "height": 525,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "checkout": {
+      "url": "/art/checkout.png",
+      "width": 568,
+      "height": 547,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "staff": {
+      "url": "/art/staff.png",
+      "width": 192,
+      "height": 556,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "storefront-budget": {
+      "url": "/art/storefront-budget.png",
+      "width": 409,
+      "height": 461,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "storefront-premium": {
+      "url": "/art/storefront-premium.png",
+      "width": 420,
+      "height": 466,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "tree": {
+      "url": "/art/tree.png",
+      "width": 303,
+      "height": 459,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "display": {
+      "url": "/art/display.png",
+      "width": 378,
+      "height": 353,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "display-improved": {
+      "url": "/art/display-improved.png",
+      "width": 358,
+      "height": 414,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "checkout-improved": {
+      "url": "/art/checkout-improved.png",
+      "width": 337,
+      "height": 371,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "interior-improved": {
+      "url": "/art/interior-improved.png",
+      "width": 458,
+      "height": 274,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "security": {
+      "url": "/art/security.png",
+      "width": 150,
+      "height": 288,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "marketing": {
+      "url": "/art/marketing.png",
+      "width": 234,
+      "height": 303,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "customer-1": {
+      "url": "/art/customer-1.png",
+      "width": 273,
+      "height": 734,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "customer-2": {
+      "url": "/art/customer-2.png",
+      "width": 285,
+      "height": 700,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "manager": {
+      "url": "/art/manager.png",
+      "width": 299,
+      "height": 724,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "staff-walk": {
+      "url": "/art/staff-walk.png",
+      "width": 293,
+      "height": 727,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "plant": {
+      "url": "/art/tree.png",
+      "width": 303,
+      "height": 459,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    }
+  },
+  "animations": {
+    "idle": {
+      "type": "transform-keyframes",
+      "durationMs": 2400,
+      "loop": true,
+      "keyframes": [
+        {
+          "at": 0,
+          "y": 0,
+          "rotation": 0
+        },
+        {
+          "at": 0.5,
+          "y": -0.6,
+          "rotation": 0
+        },
+        {
+          "at": 1,
+          "y": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    "walk": {
+      "type": "transform-keyframes",
+      "durationMs": 520,
+      "loop": true,
+      "keyframes": [
+        {
+          "at": 0,
+          "y": 0,
+          "rotation": -0.025
+        },
+        {
+          "at": 0.25,
+          "y": -2,
+          "rotation": 0
+        },
+        {
+          "at": 0.5,
+          "y": 0,
+          "rotation": 0.025
+        },
+        {
+          "at": 0.75,
+          "y": -2,
+          "rotation": 0
+        },
+        {
+          "at": 1,
+          "y": 0,
+          "rotation": -0.025
+        }
+      ],
+      "routeSpeed": 42
+    },
+    "staffStep": {
+      "type": "sprite-frames",
+      "durationMs": 700,
+      "loop": true,
+      "frames": [
+        "staff",
+        "staff-walk"
+      ]
+    }
+  },
+  "atlas": "/art/atlas.json",
+  "sources": [
+    "source/proof-original.png",
+    "source/modules-original.png",
+    "source/characters-original.png"
+  ]
+}

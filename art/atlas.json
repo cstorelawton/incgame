@@ -1,0 +1,429 @@
+{
+  "frames": {
+    "storefront": {
+      "frame": {
+        "x": 6,
+        "y": 6,
+        "w": 500,
+        "h": 497
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 497
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 497
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "interior": {
+      "frame": {
+        "x": 518,
+        "y": 6,
+        "w": 500,
+        "h": 455
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 455
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 455
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "checkout": {
+      "frame": {
+        "x": 1030,
+        "y": 6,
+        "w": 500,
+        "h": 482
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 482
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 482
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "staff": {
+      "frame": {
+        "x": 1542,
+        "y": 6,
+        "w": 173,
+        "h": 500
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 173,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 173,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "storefront-budget": {
+      "frame": {
+        "x": 6,
+        "y": 518,
+        "w": 409,
+        "h": 461
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 409,
+        "h": 461
+      },
+      "sourceSize": {
+        "w": 409,
+        "h": 461
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "storefront-premium": {
+      "frame": {
+        "x": 518,
+        "y": 518,
+        "w": 420,
+        "h": 466
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 420,
+        "h": 466
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 466
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "tree": {
+      "frame": {
+        "x": 1030,
+        "y": 518,
+        "w": 303,
+        "h": 459
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 303,
+        "h": 459
+      },
+      "sourceSize": {
+        "w": 303,
+        "h": 459
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "display": {
+      "frame": {
+        "x": 1542,
+        "y": 518,
+        "w": 378,
+        "h": 353
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 378,
+        "h": 353
+      },
+      "sourceSize": {
+        "w": 378,
+        "h": 353
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "display-improved": {
+      "frame": {
+        "x": 6,
+        "y": 1030,
+        "w": 358,
+        "h": 414
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 414
+      },
+      "sourceSize": {
+        "w": 358,
+        "h": 414
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "checkout-improved": {
+      "frame": {
+        "x": 518,
+        "y": 1030,
+        "w": 337,
+        "h": 371
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 371
+      },
+      "sourceSize": {
+        "w": 337,
+        "h": 371
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "interior-improved": {
+      "frame": {
+        "x": 1030,
+        "y": 1030,
+        "w": 458,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 458,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 458,
+        "h": 274
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "security": {
+      "frame": {
+        "x": 1542,
+        "y": 1030,
+        "w": 150,
+        "h": 288
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 288
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 288
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "marketing": {
+      "frame": {
+        "x": 6,
+        "y": 1542,
+        "w": 234,
+        "h": 303
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 234,
+        "h": 303
+      },
+      "sourceSize": {
+        "w": 234,
+        "h": 303
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "customer-1": {
+      "frame": {
+        "x": 518,
+        "y": 1542,
+        "w": 186,
+        "h": 500
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 186,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 186,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "customer-2": {
+      "frame": {
+        "x": 1030,
+        "y": 1542,
+        "w": 204,
+        "h": 500
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 204,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "manager": {
+      "frame": {
+        "x": 1542,
+        "y": 1542,
+        "w": 206,
+        "h": 500
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 206,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 206,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    "staff-walk": {
+      "frame": {
+        "x": 6,
+        "y": 2054,
+        "w": 202,
+        "h": 500
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    }
+  },
+  "animations": {
+    "staffStep": [
+      "staff",
+      "staff-walk"
+    ]
+  },
+  "meta": {
+    "app": "Dispensary Inc. asset assembly",
+    "version": "1",
+    "image": "sprites-atlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2560
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "storefront": {
+    "url": "/art/storefront.png",
+    "width": 560,
+    "height": 557,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    }
+  },
+  "interior": {
+    "url": "/art/interior.png",
+    "width": 577,
+    "height": 525,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    }
+  },
+  "checkout": {
+    "url": "/art/checkout.png",
+    "width": 568,
+    "height": 547,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    }
+  },
+  "staff": {
+    "url": "/art/staff.png",
+    "width": 192,
+    "height": 556,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.96
+    }
+  }
+}
